@@ -1,0 +1,98 @@
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    }
+    
+    
+    form {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+    }
+    
+    form .btn {
+    font-size: 16px;
+    padding: 10px;
+    }
+    
+    .text-center p {
+    margin: 0;
+    }
+    
+    .text-center a {
+    color: #fa8b02;
+    }
+    
+.text1{
+    color: #fa8b02;
+    
+}
+
+.text2{
+    color: #fa8b02;
+}
+
+.bouton-form{
+    background-color: #fa8b02;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+
+.pass {
+    position: relative;
+}
+
+.pass svg {
+    position: absolute;
+    right: 15px;
+    top: 40%;
+    cursor: pointer;
+    color:rgb(133, 133, 130);
+    transform: translateY(15px);
+    
+}
+
+.form-group {
+    margin: 30PX 0;
+    
+}
+
+label {
+    margin-bottom: 10px
+}
+
+input{
+    margin-left: 5px;
+   
+}
+
+.img{
+    position: relative;
+    
+
+}
+
+.form-img{
+    position: absolute;
+    bottom: 10%;
+    left:5%;
+    
+
+}
+
+.input{
+    text-align: center;
+}
+
+
+
+
+
+
+

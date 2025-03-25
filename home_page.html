@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>barre de navigation responsive</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="home_page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+  <body>
+    <header class="bg-navbar ">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tour Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+              <div class="navbar-text">
+                <select name="" id="">
+                  <option value="en">Eng</option>
+                  <option value="fr">Fr</option>
+                </select>
+                <button>Login</button>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Sign Up
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="text-center">Create Account</h2>
+                        <button
+                          type="button"
+                          class="btn-close "
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <!-- bouton Sign up -->
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col">
+                          
+                              <form action="" method="POST">
+                      
+                              <div class="form-group">
+                                  <label for="name">Name and Surname</label>
+                                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name and surname" required>
+                              </div>
+                              <div class="form-group">
+                                  <label for="email">Email Address</label>
+                                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                              </div>
+                      
+                              <div class="form-group  pass">
+                                  <label for="password">Password </label>
+                                  <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required >
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16" >
+                                  <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z"/>
+                                  <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z"/>
+                                  </svg>
+                              </div>
+                      
+                              <div class="form-check">
+                                  <input type="checkbox" class="form-check-input" id="terms" required>
+                                  <label class="form-check-label" for="terms">I agree with<a href="#" class="text1"> Terms</a> and<a href="#" class="text2"> Privacy</a></label>
+                              </div>
+                      
+                              <div class="d-grid gap-2">
+                                  <button class="btn-warning" type="button">Sign Up</button>
+                              </div>
+                              <div class="text-center mt-3">
+                                  <p>Or</p>
+                              </div>
+                              <div class="form-group img">
+                                  <input type="text" class="form-control text-center" id="text" name="text" placeholder="Sign up with Google" required class="input">
+                                  <img src="grommet-icons_google.png" alt="" class="form-img">
+                                  
+                              </div>
+                      
+                              <div class="text-center mt-3">
+                                  <p>Already have an account? <a href="login.php">Log In</a></p>
+                              </div>
+                              </form>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- fin bouton Sign up -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- menu au milieu  -->
+      <div class="container mt-5 text-center text-white">
+        <h1>Enjoy in the best way !</h1>
+        <span>enjoy our servies for your trip anytime</span>
+      </div>
+      <div class="container mt-5 bg-box-milieu">
+        <ul class="nav nav-tabs deux">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#home"> <img src="ic_baseline-public.png" alt="" class="fs-2 me-2">Pulic Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu1"><img src="icon_private tours (1).png" alt=""> Private Tours</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="home">
+            <div class="bg-light">
+              <div class="d-flex  align-items-center gap-5 justify-content-center">
+                <div class="p-2 ">
+                    <div class="from-group">
+                        <label for="number">Number of people</label>
+                        <select id="select" class="border border-none">
+                            <option value="1">Choose number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="p-2 ">
+                    <div class="from-group">
+                        <div class="from-group">
+                        <label for="date"> date</label>
+                        <input type="date" id="date">
+                    </div>
+                </div>
+                </div>
+                <div class="p-2 ">
+                    <div class="from-groupe">
+                      <div class="from-group">
+                        <label for="time">time</label>
+                        <input type="time" id="time">
+                      </div>
+                    </div>
+                </div>
+                <div class="p-2 ">
+                    <div class="from-group">
+                      <div class="from-group">
+                        <label for="text">Tour</label>
+                        <select id="select">
+                          <option selected> Select Tour</option>
+                            <option value="City Tour">City Tour</option>
+                            <option value="Nature Tour">Nature Tour</option>
+                            <option value="Museum Tour">Museum Tour</option>
+                        </select>
+                      </div>
+                    </div>
+                </div>
+                <div class="p-2 ">
+                  <div class="from-group">
+                    <label for="text">Transportation</label>
+                        <select id="select">
+                            <option value="">Bus</option>
+                            <option value="">Van</option>
+                            <option value="">Walking</option>
+                        </select>
+                  </div>
+                </div>
+                <div class="p-2 flex-fill">
+                    <a href="#"> <img class="" src="search.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu1"></div>
+        </div>
+      </div>
+    </header>
+    <!-- section2 -->
+  <div class="container separe">
+    <div class='d-flex happy-title mb-5 '>
+      <div>
+        <h2> Explore Our Popular Destinantions</h2>
+      </div>
+      <div class="d-flex gap-2">
+        <div class="icone1 bg-secondary">          
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="icone2 bg-warning">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="Rectangle 16.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lucca Bike Tour</h5>
+          <p>from <span class="fw-bold text-warning">34<i class="fa-sharp fa-solid fa-euro-sign"></i></span></p>
+          <div class="icone text-warning">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar4  "
+              viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+            </svg>
+            <span class="text-warning">EVERY DAY</span>
+            <span class="ms-3 text-warning"> <i class="fa-solid fa-users"> 3-10 pp</i></span>
+          </div>
+          <p>A tour of the city and its surroundings led by professionnal guide...</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Rectangle 16 (1).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Wine tasting In Tascuny</h5>
+          <p>from <span class="fw-bold text-warning">34<i class="fa-sharp fa-solid fa-euro-sign"></i></span></p>
+          <div class="icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar4 text-warning  " viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+            </svg>
+            <span class="text-warning">MONDAY</span>
+            <span class="ms-3 text-warning"> <i class="fa-solid fa-users"></i>10-30 pp</span>
+            <p>The real magic is here where yo can enjoy the best tuscan wine and eat...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Rectangle 16 (2).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cinque Terre Tour</h5>
+          <p>from <span class="fw-bold text-warning">34<i class="fa-sharp fa-solid fa-euro-sign"></i></span></p>
+          <div class="icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar4  text-warning" viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+            </svg>
+            <span class="text-warning">TO BE DECIDED</span>
+            <span class="ms-3 text-warning"> <i class="fa-solid fa-users "> </i>10-50 pp</span>
+            <p>Vissiting the 5 Terre is must and you can never go the enough</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Rectangle 16 (3).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Siena and Surroundings</h5>
+          <p>from <span class="fw-bold text-warning">34<i class="fa-sharp fa-solid fa-euro-sign"></i></span></p>
+          <div class="icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar4 text-warning " viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+            </svg>
+            <span class="text-warning">TO BE DECIDED</span>
+            <span class="ms-3 text-warning"> <i class="fa-solid fa-users"> </i> 5-10 pp</span>
+            Visit the beautiful Siena and the cities that surround it to ewperienc
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- section 2 -->
+  </div>
+  <div class="container separe">
+    <div class="row ">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img src="Group 3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title">WELCOME TO OUR SITE!</p>
+            <p class="card-text fw-bold">We are the bet compagny for your visit</p>
+            <p>After decades of experience, and a whole life in Lucca, we offer you the most complete
+              tourism service in the city. In addition to having bikes and
+              rickshaws to have as much fun as you want, you have the choice of tour guides
+              with whom to tour and drivers for your every need! We offer packages in the way
+              that you get the most at the lowest price. Book with us and we will always be available for you!</p>
+            <div>
+              <div class="static">
+                <div>
+                  <h3>20+</h3>
+                  <p>Years <br>Experience</p>
+                </div>
+                <div>
+                  <h3>100+</h3>
+                  <p>Happy <br>Costomer</p>
+                </div>
+                <div>
+                  <h3>15+</h3>
+                  <p>Choice <br>of Services</p>
+                </div>
+                <div>
+                  <h3>10+</h3>
+                  <p>professional <br>Guides</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="container-fluid offer-bande distance">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Colonne texte -->
+        <div class="col-md-6 text-center text-md-start">
+          <div class="offer-box text-center">
+            <h3 class="fw-bold "> <br>Get Special Offers for <br>Organizations</h3>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the
+              <br> industry's standard dummy text ever since the 1500s.</p> <br>
+            <button class="contact-btn">Contact Us</button>
+          </div>
+        </div>
+        <!-- Colonne image -->
+        <div class="col-md-6  text-md-end sortie ">
+          <img src="appareil.png" class="p-4 appareil " width="470" height="615" alt="Femme avec appareil photo">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- section 5 -->
+    <div class="container box">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Rectangle 18.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bike and rickshaw rental</h5>
+              <p class="card-text">Book your quality vehicle quickly for an hour or all day!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Rectangle 19.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Guided tour of the <br> countryside</h5>
+              <p class="card-text">Live the real Lucchese experience visiting the suburds by bike!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Rectangle 20.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Taxi and NCC service</h5>
+              <p class="card-text">Do you need not only a bike also a driver?Then you have found the right place</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Rectangle 20 (1).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bus Package</h5>
+              <p class="card-text">Do you need not only a bike also a driver?Then you have found the right place!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 6 -->
+    <div class="container block">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card border">
+            <img src="Rectangle 21.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text">BIKE/RICKSHAW</h5>
+                <i class="fa-solid fa-euro-sign"></i>
+                <p class="descend"><span class="fw-bold text-warning fs-1 ">10</span>/day</p> 
+              <p class="card-text icone"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar4" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+              </svg> Your bike for a day</p>
+              <p class="card-text icone"><i class="fa-solid fa-city"></i>City App</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ticket-perforated" viewBox="0 0 16 16">
+                <path d="M4 4.85v.9h1v-.9zm7 0v.9h1v-.9zm-7 1.8v.9h1v-.9zm7 0v.9h1v-.9zm-7 1.8v.9h1v-.9zm7 0v.9h1v-.9zm-7 1.8v.9h1v-.9zm7 0v.9h1v-.9z"/>
+                <path d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1 0 3 .5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5 1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3zM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1.05a2.5 2.5 0 0 0 0 4.9v1.05a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1.05a2.5 2.5 0 0 0 0-4.9z"/>
+              </svg>Discount on Rickshaw</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg>Guaranteed Support</p>
+              <div class="d-flex" >
+                <button class="btn rounded-pill w-100 border-warning text-warning text2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img src="Rectangle 21 (1).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text">BIKE TOUR</h5>
+              <i class="fa-solid fa-euro-sign"></i>
+                <p class="descend"><span class="fw-bold text-warning fs-1 ">30</span>/day</p>
+                <p class="card-text icone"><i class="fa-solid fa-person-biking"></i>A Mountain Bike Included</p>
+                <p class="card-text icone"><i class="fa-solid fa-person-walking-arrow-right"></i>Guide For You</p>
+              <p class="card-text icone"><i class="fa-solid fa-bottle-water"></i>Bottle of water</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg>Guaranteed Support</p>
+              <div class="d-flex" >
+                <button class="btn rounded-pill w-100 border-warning text-warning text2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img src="Rectangle 21 (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text">BUS TRIPS</h5>
+              <i class="fa-solid fa-euro-sign"></i>
+                <p class="descend"><span class="fw-bold text-warning fs-1 ">45</span>/day</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ticket-detailed-fill" viewBox="0 0 16 16">
+                <path d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6zm4 1a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5m0 5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5M4 8a1 1 0 0 0 1 1h6a1 1 0 1 0 0-2H5a1 1 0 0 0-1 1"/>
+              </svg>Park ticket</p>
+              <p class="card-text icone"><i class="fa-solid fa-bus-simple"></i>Return bus</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+              </svg>Companion</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg>Guaranteed Support</p>
+              <div class="d-flex" >
+                <button class="btn rounded-pill w-100 border-warning text-warning text2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img src="Rectangle 21 (3).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text ">TRANSFER</h5>
+              <i class="fa-solid fa-euro-sign"></i>
+                <p class="descend"><span class="fw-bold text-warning fs-1 ">10</span>/day</p>
+              <p class="card-text icone"><i class="fa-solid fa-person-military-to-person"></i>People Driver</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>Wherever you want</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+              </svg>At the best price</p>
+              <p class="card-text icone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg>Guaranteed Support</p>
+              <div class="d-flex" >
+                <button class="btn rounded-pill w-100 border-warning text-warning text2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Section 7 -->
+    <section class="section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6  ">
+            <h4 class="fw-bold text-center book-title"> <br>Book Now Bike</h4>
+            <div class="formulaire">
+              <form class="row g-3 ">
+                <div class="d-flex gap-3 p-2 ">
+                  <div class="col">
+                    <label for="inputName" class="form-label fw-bold">Name and Surname</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Enter your name and surname" required>
+                  </div>
+                  <div class="col">
+                    <label for="inputEmail" class="form-label fw-bold">Email Address</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address" required>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 p-2">
+                  <div class="col-md">
+                    <label for="inputTel" class="form-label fw-bold">Telephone Number</label>
+                    <input type="tel" class="form-control" id="inputTel" placeholder="Enter your telephone number" required>
+                  </div>
+                  <div class="col-md">
+                    <label for="inputService" class="form-label fw-bold">Service Type</label>
+                    <select id="inputService" class="form-select">
+                      <option selected>Select the service type</option>
+                      <option>Bike Rental</option>
+                      <option>Bike Repair</option>
+                    </select>
+                  </div>
+                </div>
+                <h4 class="fw-bold text-center">The Most Popular Packages</h4>
+                <div class="d-flex gap-3 p-2">
+                  <div class="col-md">
+                    <label for="inputDate" class="form-label fw-bold">Date</label>
+                    <input type="date" class="form-control" id="inputDate" required>
+                  </div>
+                  <div class="col-md">
+                    <label for="inputTime" class="form-label fw-bold">Time</label>
+                    <input type="time" class="form-control" id="inputTime" required>
+                  </div>
+                </div>
+                <div class="text-center gap-5">
+                  <button type="submit" class="btn btn-warning rounded-pill text-white w-25">Book Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="bike picture.png" class="w-100 bike" alt="velo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--section8-->
+    <div class="container separation">
+      <div class='d-flex happy-title mb-5'>
+        <div>
+          <h2> Happy Customers says</h2>
+        </div>
+        <div class="d-flex gap-2">
+          <div class="icone1 bg-secondary">          
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="icone2 bg-warning">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row deux-happy">
+        <div class="col-md-6">
+            <div class="box2">
+              <p class="text-center"><img src="Ellipse 4.png" alt=""><br>
+                lyod GOMEZ</p>
+              <p>But I must explain to you how all this mistaken idea of denouncing 
+                 pleasure and praising pain was born and I will give you a complete 
+                 account of the system, and expound the actual teachings of the great
+                  explorer of the truth, the master-builder of human happiness.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box3">
+            <p class="text-center"><img src="Ellipse 4.png" alt=""><br>
+              lyod GOMEZ</p>
+            <p>But I must explain to you how all this mistaken idea of denouncing 
+               pleasure and praising pain was born and I will give you a complete 
+               account of the system, and expound the actual teachings of the great
+                explorer of the truth, the master-builder of human happiness.</p>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!--section 9-->
+    <footer>
+      <div class="continer bg-dark text-light p-4"> 
+        <div>
+          <img src="logo.png" alt="">
+          <hr>
+        </div>
+        <div class="row">
+          
+          <div class="col">
+            <h3>Service</h3>
+            <p>Bike and Rickshaw rental</p>
+            <p>Guided Tours of Lucca</p>
+            <p>Guided Bike Tours of Lucca</p>
+            <p>Trip In The Tuscan Hills</p>
+            <p>Transportation with Luxury Cars</p>
+            <p>Wine Tours By Bus with Guide</p>
+          </div>
+          <div class="col">
+            <h3>Home</h3>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Tour Package</p>
+          </div>
+          <div class="col">
+            <h3>Help</h3>
+            <p>Terms of Use</p>
+            <p>Provicy Policy</p>
+          </div>
+          <div class="col">
+            <h3>Contacts</h3>
+            <p> <i class="fa-solid fa-location-dot fs-2 me-3 text-warning"></i>Pizza ,Napaleone,Lucca</p>
+            <p> <i class="fa-solid fa-phone fs-2 me-3 text-warning"></i>+39 346 368 5708</p>
+            <p><i class="fa-solid fa-envelope fs-2 me-3 text-warning"></i>Italianlimo@gmail</p>
+          </div>
+          <div class="col">
+            <h3>Social Media</h3>
+            <div class="icone3">
+              <i class="fa-brands fa-square-twitter fs-2 me-3 text-warning "></i>
+              <i class="fa-brands fa-facebook fs-2 me-3 text-warning"></i>
+              <i class="fa-brands fa-instagram fs-2 me-3 text-warning"></i>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">Copyright @ 2025.All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+</body>
+</html>

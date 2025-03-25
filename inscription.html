@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fomulaire d'inscription</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <div class="container mt-5">
+   
+        <div class="col-md-6">
+        
+            <form action="" method="POST">
+    
+            <div class="form-group">
+            <h2 class="text-center">Create Account</h2>
+                <label for="name">Name and Surname</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name and surname" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+    
+            <div class="form-group  pass">
+                <label for="password">Password </label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16" >
+                <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z"/>
+                <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z"/>
+                </svg>
+            </div>
+    
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">I agree with<a href="#" class="text1"> Terms</a> and<a href="#" class="text2"> Privacy</a></label>
+            </div>
+    
+            <div class="d-grid gap-2 bouton-form">
+                <button class="btn" type="button">Sign Up</button>
+            </div>
+            <div class="text-center mt-3">
+                <p>Or</p>
+            </div>
+            <div class="form-group img">
+                <input type="text" class="form-control text-center" id="text" name="text" placeholder="Sign up with Google" required class="input">
+                <img src="grommet-icons_google.png" alt="" class="form-img">
+                
+            </div>
+    
+            <div class="text-center mt-3">
+                <p>Already have an account? <a href="login.php">Log In</a></p>
+            </div>
+            </form>
+          </div>
+ 
+      </div>
+</body>
+</html>

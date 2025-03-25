@@ -1,0 +1,211 @@
+<header class="bg-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tour Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div class="navbar-text text-white">
+              <select>
+                <option value="eng">Eng</option>
+                <option value="fr">Fr</option>
+                <option value="esp">Esp</option>
+              </select>
+              <button class="btn text-white">Login</button>
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-sign-up" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Sign Up
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Create Account</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- menu au milieu  -->
+    <div class="container mt-5 text-center text-white">
+      <h1>Enjoy in the best way !</h1>
+      <span>enjoy our servies for your trip anytime</span>
+    </div>
+    <div class="container mt-5 bg-box-milieu">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home"> <img src="Frame 8.png" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-bs-toggle="tab" href="#menu1"> <img src="icon_private tours.png" alt="">
+            Private Tour</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="main-content">
+        <div class="card-content">
+
+          <form class="search-form bg-light ">
+            <div class="form-group ">
+
+
+              <label for="people">👥 Number of people</label>
+              <select id="people">
+                <option value="">Choose number</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date"> Date</label>
+              <input type="date" id="date">
+            </div>
+            <div class="form-group">
+              <label for="time"> Time</label>
+              <input type="time" id="time">
+            </div>
+            <div class="form-group">
+              <label for="tour"> Tour</label>
+              <select id="tour">
+                <option value="">Select Tour</option>
+                <option>City Tour</option>
+                <option>Nature Tour</option>
+                <option>Museum Tour</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="transport"> Transportation</label>
+              <select id="transport">
+                <option value="">Select Transportation</option>
+                <option>Bus</option>
+                <option>Van</option>
+                <option>Walking</option>
+              </select>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" data-bs-toggle="tab" href="#menu1"> <img src="search.png" alt=""></a>
+            </div>
+        </div>
+  </header>
+
+partie css
+.bg-header{
+    background-image: url('julia-solonina-Csja8O0sbOw-unsplash 1 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.btn-sign-up{
+    background: orange !important;
+    border-radius: 40%;
+    color: #fff;
+   
+}
+
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    font-size: 20px;
+
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card-content{
+    background: rgba(255, 255, 255,0.2);
+
+}
+
+.bg-light{
+    margin-left: 15px;
+    margin-right: 15%;
+}
+
+.container1{
+    display: flex;
+    margin-top: 2%;
+    border: none;
+   
+    
+
+}
+
+h2{
+    margin-top: 5%;
+}
+.card{
+    border: none;
+}
+
+.card-body img{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-left: 15%;
+    
+
+}
+.static{
+    display: flex;
+    gap: 10%;
+}
+.static h3{
+    color: orange !important;
+}
+

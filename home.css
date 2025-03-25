@@ -1,0 +1,12 @@
+.bg-navbar {
+  background-image: url("julia-solonina-Csja8O0sbOw-unsplash\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-box-milieu {
+    border-radius: 5px;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }

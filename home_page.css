@@ -1,0 +1,289 @@
+.bg-navbar{
+    background-image: url('julia-solonina-Csja8O0sbOw-unsplash 1 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255,0.2);
+    padding: 10px;
+   
+    
+}
+
+
+.bg-box-milieu {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255,0.2);
+  }
+
+
+/* <!-- Tab panes --> */
+.tab-content .from-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tab-content a img{
+    width: 40px;
+    height: 40px; 
+} 
+
+  
+h2{
+    margin-top: 5%;
+}
+.card{
+    border: none;
+}
+
+.card-body img{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-left: 15%;
+    
+
+}
+.static{
+    display: flex;
+    gap: 10%;
+}
+.static h3{
+    color: orange !important;
+}
+
+.separe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.distance{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+}
+.offer-bande{
+    background-image: url('Rectangle 51 (1).png');
+    height: 65vh;
+    text-align: center;
+}
+
+.offer-box{
+    position: relative;
+    background-color: rgba(255, 255, 255,0.4);
+    margin-bottom: 10%;
+    border-radius: 15px;
+    right: 15px;
+    top: -65px;
+    width: 80%;
+}
+
+
+
+.contact-btn{
+    background-color: orange !important;
+    border-radius: 30px;
+    top: 30px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+}
+
+.appareil{
+    position: relative;
+   top: -155px;
+   height: 550px;
+   
+}
+
+.box{
+    text-align: left;
+
+}
+
+.block{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.descend{
+    position: relative;
+    top: -30px;
+    margin-left: 15px;
+
+}
+
+.icone svg{
+    color:orange !important;
+    margin-right: 2px;
+}
+
+.icone i{
+    color:orange !important;
+    margin-right: 4px;
+}
+
+.text2{
+    font-weight: bold;
+}
+
+
+/* Section 7 */
+.section{
+    background-image: url('Rectangle 51 (1).png');
+    height: 70vh;
+    
+}
+
+.book-title{
+    position: relative;
+    top: -20px;
+}
+
+.formulaire form{
+    background-color: rgba(255, 255, 255,0.4);
+    /* background: none; */
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.bike{
+    position: relative;
+    top: 38px;
+}
+
+/* section8 */
+.separation{
+    margin: 10%;
+}
+
+
+.happy-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deux-happy{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone1, .icone2{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* css pour le formulaire sign up */
+    
+    form {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+    }
+    
+    form .btn {
+    font-size: 16px;
+    padding: 10px;
+    }
+    
+    .text-center p {
+    margin: 0;
+    }
+    
+    /* .text-center a {
+    color: #fa8b02;
+    } */
+    
+.text1{
+    color: #fa8b02;
+    
+}
+
+/* .text2{
+    color: #fa8b02;
+} */
+
+/* .btn{
+    background-color: #fa8b02;
+    border-radius: 30px;
+    color: #ffffff;
+} */
+
+
+.pass {
+    position: relative;
+}
+
+.pass svg {
+    position: absolute;
+    right: 15px;
+    top: 40%;
+    cursor: pointer;
+    color:rgb(133, 133, 130);
+    transform: translateY(15px);
+    
+}
+
+.form-group {
+    margin: 30PX 0;
+    
+}
+
+label {
+    margin-bottom: 10px
+}
+
+input{
+    margin-left: 5px;
+   
+}
+
+.img{
+    position: relative;
+    
+
+}
+
+.form-img{
+    position: absolute;
+    bottom: 10%;
+    left:5%;
+    
+
+}
+
+.input{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
