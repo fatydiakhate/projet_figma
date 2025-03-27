@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>barre de navigation responsive</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="purchage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Section1 -->
+   <header class="bg-navbar ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home_page.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tour_packages.html">Tour Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <div class="navbar-text">
+              <select name="" id="">
+                <option value="en">Eng</option>
+                <option value="fr">Fr</option>
+              </select>
+              <button>Login</button>
+              <!--Button trigger modal -->
+               <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop ">
+                Sign Up
+              </button>
+
+              <!-- Modal -->
+               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr>
+  </header> 
+  <!-- section2 -->
+   <!-- <div class="container step"> -->
+    <form class="form-wizard">
+        <h1></h1>
+        <div class="progress-container ">
+            <!-- <div class="progress"></div> -->
+            <ol>
+                <li>step label</li>
+                <li>step label</li>
+                <li>step label</li>
+            </ol>
+        </div>
+       </form>
+   <!-- </div>  -->
+    Section3
+
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/purchage-script.js"></script>
+</body>
+</html>

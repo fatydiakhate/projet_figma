@@ -1,0 +1,62 @@
+.separe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    border: none;
+}
+
+/* section6 */
+.section{
+    background-image: url('images/Rectangle 51 (1).png');
+    height: 75vh;
+    
+}
+
+.book-title{
+    position: relative;
+    top: -20px;
+}
+
+.formulaire form{
+    background-color: rgba(255, 255, 255,0.4);
+    /* background: none; */
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.bike{
+    position: relative;
+    top: 68px;
+}
+/* fin section6 */
+
+/* section7 */
+.separation{
+    margin: 10%;
+}
+
+
+.happy-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deux-happy{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.icone1, .icone2{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

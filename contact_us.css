@@ -1,0 +1,39 @@
+/* section2 */
+
+
+.section{
+    background-image: url('Rectangle 51 (1).png');
+    height: 70vh;
+    padding: 20px;
+    
+}
+
+.formulaire form{
+    background-color: rgba(255, 255, 255,0.4);
+    /* background: none; */
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.faty{
+    background: #ffc982;
+    border-radius: 8px;
+    
+    
+}
+
+
+.section3{
+    background-image: url('Rectangle 33.png');
+    height: 100vh;
+}
+
+.section3 img{
+    margin-left: 770px;
+    padding: 15%;
+    margin-top: 70px;
+}
+
+ 

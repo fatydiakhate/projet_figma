@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>barre de navigation responsive</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="tour_packages_detail.css">
+  <link rel="stylesheet" href="css/calendrier.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Section1 -->
+  <header class="bg-navbar ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home_page.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tour_packages.html">Tour Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <div class="navbar-text">
+              <select name="" id="">
+                <option value="en">Eng</option>
+                <option value="fr">Fr</option>
+              </select>
+              <button>Login</button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop ">
+                Sign Up
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr>
+  </header>
+
+  <!-- section2 -->
+  <div class="container">
+    <div class='d-flex'>
+      <div>
+        <img src="images/bi_arrow-right (1).png" alt="">
+      </div>
+      <div class="fw-bold">
+        <p>Back</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="">
+          <p class=""><img src="images/Rectangle 39.png" alt="" class="taille-img-packages"></p>
+
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/Rectangle 40.png" alt="" class="taille-img-packages">
+            </div>
+            <div class="col-md-4">
+              <img src="images/Rectangle 41.png" alt="" class="taille-img-packages">
+            </div>
+            <div class="col-md-4">
+              <img src="images/Rectangle 42.png" alt="" class="taille-img-packages">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="box3">
+          <h2>Wine tasting In Tuscany</h2>
+          <p>from <span class="fw-bold text-warning">34<i class="fa-sharp fa-solid fa-euro-sign"></i></span></p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Soluta, porro animi repellendus minima error commodi accusantium
+            aut inventore sint reiciendis iure ullam qui architecto tenetur
+            repudiandae rerum, dolorem, sunt nisi!</p>
+          <p class="fw-bold mt-3">Select a date</p>
+
+          <div class="calendar-container">
+            <header class="calendar-header">
+              <p class="calendar-current-date"></p>
+              <div class="calendar-navigation">
+                <span id="calendar-prev" class="material-symbols-rounded">
+                  < 
+                </span>
+                <span id="calendar-next" class="material-symbols-rounded">
+                  >
+                </span>
+              </div>
+            </header>
+
+            <div class="calendar-body">
+              <ul class="calendar-weekdays">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+              </ul>
+              <ul class="calendar-dates"></ul>
+            </div>
+        </div>
+        <div class="gap-2">
+            <!-- <form class=" mt-3"> -->
+              <div class="col-md-8">
+                <label for="inputTime" class="form-label fw-bold">Time</label>
+                <input type="time" class="form-control w-100" id="inputTime" placeholder="Select the time" required><br>
+              </div>
+              <div class="text-center text-bold gap-3 col-md-8 ">
+               <a href="purchage.html"><button type="submit" class="btn btn-warning rounded-pill text-light w-100  fw-bold">Buy New</button></a>
+              </div>
+            <!-- </form> -->
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Section3 -->
+  <div class="container section3">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="fw-bold">Details</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap into 
+        electronic typesetting, remaining essentially unchanged. It was popularised in 
+        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMakir including
+        versions of Lorem Ipsum.</p>
+            <div class='d-flex gap-2'>
+              <div>
+                <img src="images/icon_private tours (2).png" alt="" class="">
+              </div>
+              <div class="fw-bold">
+                <p>Number of group:</p>
+              </div>
+              <p>15-30</p>
+            </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/icon_duration.png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Duration:</p>
+                </div>
+                <p>15hours and 45 minutes</p>
+              </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/akar-icons_location.png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Departuring and arriving areas:</p>
+                </div>
+                <p>Lucca</p>
+              </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/icon_guide (1).png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Guide service:</p>
+                </div>
+                <p>Included</p>
+              </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/icon_language.png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Language:</p>
+                </div>
+                <p>English,Italian</p>
+              </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/icon_ticket.png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Entry Fees:</p>
+                </div>
+                <p>lorem ipsum</p>
+              </div>
+              <div class='d-flex gap-1'>
+                <div>
+                  <img src="images/icon_bus.png" alt="" class="">
+                </div>
+                <div class="fw-bold">
+                  <p>Entry Transportation:</p>
+                </div>
+                <p>Bus</p>
+              </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section4 -->
+  <div class="container section4">
+    <div class='d-flex happy-title mb-5'>
+      <div>
+        <h2> Gallery</h2>
+      </div>
+      <div class="d-flex gap-2">
+        <div class="icone1 bg-secondary">          
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="icone2 bg-warning">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-12 d-flex  gap-3">
+        <div class="col-md-6 ">
+          <img src=" images/Rectangle 43 (1).png" alt="" class="taille-image1">
+        </div>
+          <div class="col-md-3 "> 
+            <img src="images/Rectangle 44 (1).png" alt="" class="taille-image2 mb-3">
+            <img src="images/Rectangle 45 (1).png" alt="" class="taille-image2">
+          </div>
+           <div class="col-md-3"> 
+            <img src="images/Rectangle 46 (1).png" alt="" class="taille-image3">
+          </div> 
+      </div>
+    </div>
+  </div>
+  <!-- SECTION5 -->
+  <div class="container separation ">
+    <div class='d-flex happy-title mb-5'>
+      <div>
+        <h2> Happy Customers says</h2>
+      </div>
+      <div class="d-flex gap-2">
+        <div class="icone1 bg-secondary">          
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="icone2 bg-warning">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row deux-happy">
+      <div class="col-md-6 ">
+          <div class="box2">
+            <p class="text-center"><img src="images/Ellipse 4.png" alt=""><br>
+              lyod GOMEZ</p>
+            <p>But I must explain to you how all this mistaken idea of denouncing
+               pleasure and praising pain was born and I will give you a complete  
+               account  of the system, and expound the actual teachings of the great 
+                explorer of the truth, the master-builder of human happiness.</p>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="box3">
+          <p class="text-center"><img src="images/Ellipse 4.png" alt=""><br>
+            lyod GOMEZ</p>
+          <p>But I must explain to you how all this mistaken idea of denouncing 
+             pleasure and praising pain was born and I will give you a complete 
+             account of the system, and expound the actual teachings of the great
+              explorer of the truth, the master-builder of human happiness.</p>
+        </div>
+    </div>
+    </div>
+  </div>
+  <!-- section6 -->
+  <footer>
+    <div class="continer bg-dark text-light p-4"> 
+      <div>
+        <img src="logo.png" alt="">
+        <hr>
+      </div>
+      <div class="row">
+        
+        <div class="col">
+          <h3>Service</h3>
+          <p>Bike and Rickshaw rental</p>
+          <p>Guided Tours of Lucca</p>
+          <p>Guided Bike Tours of Lucca</p>
+          <p>Trip In The Tuscan Hills</p>
+          <p>Transportation with Luxury Cars</p>
+          <p>Wine Tours By Bus with Guide</p>
+        </div>
+        <div class="col">
+          <h3>Home</h3>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Tour Package</p>
+        </div>
+        <div class="col">
+          <h3>Help</h3>
+          <p>Terms of Use</p>
+          <p>Provicy Policy</p>
+        </div>
+        <div class="col">
+          <h3>Contacts</h3>
+          <p> <i class="fa-solid fa-location-dot fs-2 me-3 text-warning"></i>Pizza ,Napaleone,Lucca</p>
+          <p> <i class="fa-solid fa-phone fs-2 me-3 text-warning"></i>+39 346 368 5708</p>
+          <p><i class="fa-solid fa-envelope fs-2 me-3 text-warning"></i>Italianlimo@gmail</p>
+        </div>
+        <div class="col">
+          <h3>Social Media</h3>
+          <div class="icone3">
+            <i class="fa-brands fa-square-twitter fs-2 me-3 text-warning "></i>
+            <i class="fa-brands fa-facebook fs-2 me-3 text-warning"></i>
+            <i class="fa-brands fa-instagram fs-2 me-3 text-warning"></i>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">Copyright @ 2025.All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
