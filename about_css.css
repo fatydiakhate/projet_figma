@@ -1,5 +1,5 @@
 .bg-navbar{
-    background-image: url('julia-solonina-Csja8O0sbOw-unsplash 1 (3).png');
+    background-image: url('images/julia-solonina-Csja8O0sbOw-unsplash 1 (3).png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -39,7 +39,7 @@
 /* fin section2 */
 
 .section3{
-    background-image: url('Rectangle 51 (1).png');
+    background-image: url('images/Rectangle 51 (1).png');
     height: 50vh;
     text-align: center;
 }
